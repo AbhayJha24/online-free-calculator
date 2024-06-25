@@ -4,92 +4,32 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+      <section className={styles.calculator}>
+        <article className={styles.outputPane}>
+          result
+        </article>
+        <article className={styles.buttonsArea}>
+          <button className={styles.acButton}>AC</button>
+          <button className={styles.signChangeButton}>+/-</button>
+          <button className={styles.percentButton}>%</button>
+          <button className={styles.divisionButton}>÷</button>
+          <button className={styles.sevenButton}>7</button>
+          <button className={styles.eightButton}>8</button>
+          <button className={styles.nineButton}>9</button>
+          <button className={styles.multiplyButton}>×</button>
+          <button className={styles.fourButton}>4</button>
+          <button className={styles.fiveButton}>5</button>
+          <button className={styles.sixButton}>6</button>
+          <button className={styles.minusButton}>-</button>
+          <button className={styles.oneButton}>1</button>
+          <button className={styles.twoButton}>2</button>
+          <button className={styles.threeButton}>3</button>
+          <button className={styles.plusButton}>+</button>
+          <button className={styles.zeroButton}>0</button>
+          <button className={styles.commaButton}>&#44;</button>
+          <button className={styles.equalsButton}>=</button>
+        </article>
+      </section>
     </main>
   );
 }
