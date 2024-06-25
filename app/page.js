@@ -132,16 +132,16 @@ export default function Home() {
     else{
       switch (operator) {
         case '+':
-          setOutput(toString(add(prevValue, parseInt(output))))
+          setOutput(String(add(prevValue, parseInt(output))))
           break;
         case '-':
-          setOutput(toString(subtract(prevValue, parseInt(output))))
+          setOutput(String(subtract(prevValue, parseInt(output))))
           break;
         case '×':
-          setOutput(toString(multiply(prevValue, parseInt(output))))
+          setOutput(String(multiply(prevValue, parseInt(output))))
           break;
         case '÷':
-          setOutput(toString(divide(prevValue, parseInt(output))))
+          setOutput(String(divide(prevValue, parseInt(output))))
           break;
       
         default:
