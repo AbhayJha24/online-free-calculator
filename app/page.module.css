@@ -50,6 +50,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .multiplyButton, .plusButton, .divisionButton, .equalsButton, .minusButton {
@@ -63,6 +64,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .acButton, .signChangeButton, .percentButton {
@@ -75,6 +77,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .zeroButton{
