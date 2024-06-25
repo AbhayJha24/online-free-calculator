@@ -141,7 +141,7 @@ export default function Home() {
           setOutput(String(multiply(prevValue, parseInt(output))))
           break;
         case '÷':
-          setOutput(String(divide(prevValue, parseInt(output))))
+          setOutput(String(divide(prevValue, parseInt(output)).toPrecision(3)))
           break;
       
         default:
