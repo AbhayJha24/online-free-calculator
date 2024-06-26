@@ -84,3 +84,227 @@
   width: 7.3em;
   border-radius: 40px;
 }
+
+@media only screen and (max-width:400px) {
+  .calculator{
+    width: 95%;
+
+  }
+
+  .buttonsArea{
+    padding: 2em 0.5em;
+  }
+
+  .acButton, .signChangeButton, .percentButton {
+    width: 0.1em;
+    height: 0.1em;
+    font-size: 1.1em;
+  }
+
+  .sevenButton, .eightButton, .nineButton,  .fourButton, .fiveButton, .sixButton, .oneButton, .twoButton, .threeButton,  .zeroButton, .commaButton{
+    width: 0.1em;
+    height: 0.1em;
+    font-size: 1.1em;
+  }
+
+  .multiplyButton, .plusButton, .divisionButton, .equalsButton, .minusButton {
+    width: 0.1em;
+    height: 0.1em;
+    font-size: 1.1em;
+  }
+
+  .zeroButton{
+    width: 7.4em;
+    border-radius: 40px;
+  }
+}
+
+@media only screen and (max-width:350px) {
+  .calculator{
+    padding: 1.5em 0.1em;
+    width: 95%;
+  }
+
+  .buttonsArea{
+    padding: 1.2em;
+  }
+
+  .acButton, .signChangeButton, .percentButton {
+    width: 0.1em;
+    height: 0.1em;
+    font-size: 1em;
+  }
+
+  .sevenButton, .eightButton, .nineButton,  .fourButton, .fiveButton, .sixButton, .oneButton, .twoButton, .threeButton,  .zeroButton, .commaButton{
+    width: 0.1em;
+    height: 0.1em;
+    font-size: 1em;
+  }
+
+  .multiplyButton, .plusButton, .divisionButton, .equalsButton, .minusButton {
+    width: 0.1em;
+    height: 0.1em;
+    font-size: 1em;
+  }
+
+  .zeroButton{
+    width: 7.5em;
+    border-radius: 40px;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .calculator{
+    padding: 1.5em 0.1em;
+    width: 95%;
+  }
+
+  .buttonsArea{
+    padding: 1.2em 0.3em;
+  }
+
+  .acButton, .signChangeButton, .percentButton {
+    width: 0.1em;
+    height: 0.1em;
+    font-size: 0.9em;
+  }
+
+  .sevenButton, .eightButton, .nineButton,  .fourButton, .fiveButton, .sixButton, .oneButton, .twoButton, .threeButton,  .zeroButton, .commaButton{
+    width: 0.1em;
+    height: 0.1em;
+    font-size: 0.9em;
+  }
+
+  .multiplyButton, .plusButton, .divisionButton, .equalsButton, .minusButton {
+    width: 0.1em;
+    height: 0.1em;
+    font-size: 0.9em;
+  }
+
+  .zeroButton{
+    width: 7.8em;
+    border-radius: 40px;
+  }
+}
+
+@media only screen and (max-width: 310px) {
+  .calculator{
+    padding: 1.5em 0.1em;
+    width: 95%;
+  }
+
+  .buttonsArea{
+    padding: 1.2em;
+  }
+
+  .acButton, .signChangeButton, .percentButton {
+    width: 0.1em;
+    height: 0.1em;
+    font-size: 0.8em;
+  }
+
+  .sevenButton, .eightButton, .nineButton,  .fourButton, .fiveButton, .sixButton, .oneButton, .twoButton, .threeButton,  .zeroButton, .commaButton{
+    width: 0.1em;
+    height: 0.1em;
+    font-size: 0.8em;
+  }
+
+  .multiplyButton, .plusButton, .divisionButton, .equalsButton, .minusButton {
+    width: 0.1em;
+    height: 0.1em;
+    font-size: 0.8em;
+  }
+
+  .zeroButton{
+    width: 7.9em;
+    border-radius: 40px;
+  }
+
+  .outputPane{
+    font-size: 4em;
+  }
+}
+
+
+@media only screen and (max-width: 300px) {
+
+  .acButton, .signChangeButton, .percentButton {
+    width: 0.1em;
+    height: 0.1em;
+    font-size: 0.7em;
+  }
+
+  .sevenButton, .eightButton, .nineButton,  .fourButton, .fiveButton, .sixButton, .oneButton, .twoButton, .threeButton,  .zeroButton, .commaButton{
+    width: 0.1em;
+    height: 0.1em;
+    font-size: 0.7em;
+  }
+
+  .multiplyButton, .plusButton, .divisionButton, .equalsButton, .minusButton {
+    width: 0.1em;
+    height: 0.1em;
+    font-size: 0.7em;
+  }
+
+  .zeroButton{
+    width: 8.2em;
+    border-radius: 40px;
+  }
+}
+
+@media only screen and (max-width: 276px) {
+
+  .acButton, .signChangeButton, .percentButton {
+    width: 0.1em;
+    height: 0.1em;
+    font-size: 0.6em;
+  }
+
+  .sevenButton, .eightButton, .nineButton,  .fourButton, .fiveButton, .sixButton, .oneButton, .twoButton, .threeButton,  .zeroButton, .commaButton{
+    width: 0.1em;
+    height: 0.1em;
+    font-size: 0.6em;
+  }
+
+  .multiplyButton, .plusButton, .divisionButton, .equalsButton, .minusButton {
+    width: 0.1em;
+    height: 0.1em;
+    font-size: 0.6em;
+  }
+
+  .zeroButton{
+    width: 8.2em;
+    border-radius: 40px;
+  }
+
+  .outputPane{
+    font-size: 3em;
+  }
+}
+
+@media only screen and (max-width: 255px) {
+
+  .acButton, .signChangeButton, .percentButton {
+    width: 0.1em;
+    height: 0.1em;
+    font-size: 0.5em;
+  }
+
+  .sevenButton, .eightButton, .nineButton,  .fourButton, .fiveButton, .sixButton, .oneButton, .twoButton, .threeButton,  .zeroButton, .commaButton{
+    width: 0.1em;
+    height: 0.1em;
+    font-size: 0.5em;
+  }
+
+  .multiplyButton, .plusButton, .divisionButton, .equalsButton, .minusButton {
+    width: 0.1em;
+    height: 0.1em;
+    font-size: 0.5em;
+  }
+
+  .zeroButton{
+    width: 9em;
+    border-radius: 40px;
+  }
+}
+

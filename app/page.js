@@ -115,7 +115,7 @@ export default function Home() {
       setPrevValue(parseInt(output));
 
       // Clear the output so that the user can enter more numbers
-      setOutput("0");
+      setOutput("");
     }
   }
 
